@@ -48,8 +48,7 @@ test:
     - pyrender.platforms
   commands:
     - pip check
-    # Disabled due to https://github.com/mmatl/pyrender/issues/203
-    - pytest -k "not (test_meshes or test_offscreen)" tests
+    - pytest tests
   requires:
     - pip
     - pytest
