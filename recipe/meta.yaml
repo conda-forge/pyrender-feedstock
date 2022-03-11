@@ -11,7 +11,7 @@ source:
   sha256: cfdf0f681f7763247623c751606e7d3417e3472d5b0f32cfd0389abd207e0a4f
 
 build:
-  number: 2
+  number: 3
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -24,7 +24,7 @@ requirements:
     - pillow
     - pip
     - pyglet >=1.4.10
-    - pyopengl ==3.1.0
+    - pyopengl >=3.1.0
     - python  >=3.6
     - scipy
     - six
@@ -37,7 +37,7 @@ requirements:
     - numpy
     - pillow
     - pyglet >=1.4.10
-    - pyopengl ==3.1.0
+    - pyopengl >=3.1.0
     - python  >=3.6
     - scipy
     - six
